@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 import "./globals.css";
-import Navbar from "./Components/Template/Navbar/Navbar";
-import Footer from "./Components/Template/Footer/Footer";
+import Navbar from "@/Components/Template/Navbar/Navbar";
+import Footer from "@/Components/Template/Footer/Footer";
 
 const jost = Jost({ subsets: ["latin"], weight: ["400", "700", "500", "600"] });
 

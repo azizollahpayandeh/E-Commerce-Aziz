@@ -1,5 +1,7 @@
 "use client"
 import Link from "next/link"
+
+
 import { IoSearch } from "react-icons/io5";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { HiOutlineShoppingCart } from "react-icons/hi2";
@@ -8,6 +10,9 @@ import { useEffect, useRef, useState } from "react";
 import Menu from "../../Modules/Menu/MenuNav";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+
+
+
 
 export default function Navbar() {
   const path = usePathname()
@@ -41,15 +46,15 @@ const menuRef = useRef<HTMLDivElement | null>(null);
             <div>
             <Image alt="logo" width={170} height={50} src="/assets/azizkala-logo-black.png"/>
             </div>
-            <div className="flex items-center lg:space-x-20 space-x-5">
-              <nav className="hidden lg:flex space-x-6">
+            <div className="flex items-center lg:space-x-20  space-x-5">
+              <nav className="hidden lg:flex space-x-6 xl:space-x-14">
                 <Link className={`text-gray-500 font-[500] hover:text-gray-700 ${path == "/" ? "border-b-2" : ""} `} href="/">
                   Home
                 </Link>
-                <Link className={`text-gray-500 font-[500] hover:text-gray-700 ${path == "/concat" ? "border-b-2" : ""} `} href="/concat">
+                <Link className={`text-gray-500 font-[500] hover:text-gray-700 ${path == "/Concat" ? "border-b-2" : ""} `} href="/Concat">
                   Contact
                 </Link>
-                <Link className={`text-gray-500 font-[500] hover:text-gray-700 ${path == "/about" ? "border-b-2" : ""} `} href="/about">
+                <Link className={`text-gray-500 font-[500] hover:text-gray-700 ${path == "/About" ? "border-b-2" : ""} `} href="/About">
                   About
                 </Link>
                 <Link className={`text-gray-500 font-[500] hover:text-gray-700 ${path == "/sign-up" ? "border-b-2" : ""} `} href="/sign-up">
