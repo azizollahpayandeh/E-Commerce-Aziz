@@ -40,24 +40,24 @@ const menuRef = useRef<HTMLDivElement | null>(null);
 
   return (
     <>
-      <header className="bg-white py-4">
+      <header className="bg-white py-4 border-b-2 border-gray-100">
         <div className=" mx-auto">
-          <div className="flex justify-between items-center w-full border-b-2 border-gray-100 py-3">
+          <div className="flex justify-between items-center w-full  py-3">
             <div>
             <Image alt="logo" width={170} height={50} src="/assets/azizkala-logo-black.png"/>
             </div>
             <div className="flex items-center lg:space-x-20  space-x-5">
               <nav className="hidden lg:flex space-x-6 xl:space-x-14">
-                <Link className={`text-gray-500 font-[500] hover:text-gray-700 ${path == "/" ? "border-b-2" : ""} `} href="/">
+                <Link className={`text-gray-700 font-[500] hover:text-gray-500 ${path == "/" ? "border-b-2 border-gray-500 border-opacity-80" : ""} `} href="/">
                   Home
                 </Link>
-                <Link className={`text-gray-500 font-[500] hover:text-gray-700 ${path == "/Concat" ? "border-b-2" : ""} `} href="/Concat">
+                <Link className={`text-gray-700 font-[500] hover:text-gray-500 ${path == "/Concat" ? "border-b-2 border-gray-500 border-opacity-80" : ""} `} href="/Concat">
                   Contact
                 </Link>
-                <Link className={`text-gray-500 font-[500] hover:text-gray-700 ${path == "/About" ? "border-b-2" : ""} `} href="/About">
+                <Link className={`text-gray-700 font-[500] hover:text-gray-500 ${path == "/About" ? "border-b-2 border-gray-500 border-opacity-80" : ""} `} href="/About">
                   About
                 </Link>
-                <Link className={`text-gray-500 font-[500] hover:text-gray-700 ${path == "/sign-up" ? "border-b-2" : ""} `} href="/sign-up">
+                <Link className={`text-gray-700 font-[500] hover:text-gray-500 ${path == "/sign-up" ? "border-b-2 border-gray-500 border-opacity-80" : ""} `} href="/sign-up">
                   Sign Up
                 </Link>
               </nav>
@@ -76,7 +76,7 @@ const menuRef = useRef<HTMLDivElement | null>(null);
               <IoMdMenu className="text-gray-500 lg:hidden cursor-pointer"  onClick={toggleMenu}  fontSize={25}/>
             </div>
           </div>
-          <div className={`menu flex justify-end lg:hidden pr-[150px] ${clickHandlerMenu ? "block" : "hidden"}`} ref={menuRef}>
+          <div className={`menu flex justify-end z-50 lg:hidden pr-[150px] ${clickHandlerMenu ? "block" : "hidden"}`} ref={menuRef}>
           <Menu/>
         </div>
         </div>
