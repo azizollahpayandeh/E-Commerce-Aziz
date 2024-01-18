@@ -50,40 +50,44 @@ export default function MainSec() {
             Health & Beauty
           </a>
         </div>
-        <div className=" lleftbar lg:w-[75%] w-[100%]">
-          <div className=" lg:pt-[40px] lg:pl-[45px] ">
+        <div className=" lleftbar lg:w-[75%] w-[100%] ">
+          <div className=" lg:pt-[40px] lg:pl-[45px]  ">
             <Swiper
               modules={[Navigation, Pagination, Scrollbar, A11y]}
               spaceBetween={50}
               slidesPerView={1}
               loop={true}
+              pagination={{
+                clickable: true,
+                
+             }}
             >
               <SwiperSlide className="">
                 <img
                   alt="frame"
-                  src="/assets/Frame 560.png"
-                  className=" lg:w-[892px] 2xl:w-[1000px]"
+                  src="/assets/Frame500.png"
+                  className=" lg:w-[892px] 2xl:w-[1000px] h-[150px] md:h-auto"
                 />
               </SwiperSlide>
               <SwiperSlide className="">
                 <img
                   alt="frame"
-                  src="/assets/Frame 560.png"
-                  className=" lg:w-[892px] 2xl:w-[1000px]"
+                  src="/assets/Frame500.png"
+                  className=" lg:w-[892px] 2xl:w-[1000px] h-[150px] md:h-auto"
                 />
               </SwiperSlide>
               <SwiperSlide className="">
                 <img
                   alt="frame"
-                  src="/assets/Frame 560.png"
-                  className=" lg:w-[892px] 2xl:w-[1000px]"
+                  src="/assets/Frame500.png"
+                  className=" lg:w-[892px] 2xl:w-[1000px] h-[150px] md:h-auto"
                 />
               </SwiperSlide>
               <SwiperSlide className="">
                 <img
                   alt="frame"
-                  src="/assets/Frame 560.png"
-                  className=" lg:w-[892px] 2xl:w-[1000px]"
+                  src="/assets/Frame500.png"
+                  className=" lg:w-[892px] 2xl:w-[1000px] h-[150px] md:h-auto"
                 />
               </SwiperSlide>
             </Swiper>
