@@ -63,31 +63,39 @@ export default function MainSec() {
              }}
             >
               <SwiperSlide className="">
-                <img
+                <Image
+                width={1000}
+                height={1000}
                   alt="frame"
                   src="/assets/Frame500.png"
-                  className=" lg:w-[892px] 2xl:w-[1000px] h-[150px] md:h-auto"
+                  className=" lg:w-[892px] 2xl:w-[1000px] h-auto md:h-auto"
                 />
               </SwiperSlide>
               <SwiperSlide className="">
-                <img
+                <Image
+                width={1000}
+                height={1000}
                   alt="frame"
                   src="/assets/Frame500.png"
-                  className=" lg:w-[892px] 2xl:w-[1000px] h-[150px] md:h-auto"
+                  className=" lg:w-[892px] 2xl:w-[1000px] h-auto md:h-auto"
                 />
               </SwiperSlide>
               <SwiperSlide className="">
-                <img
+                <Image
+                width={1000}
+                height={1000}
                   alt="frame"
                   src="/assets/Frame500.png"
-                  className=" lg:w-[892px] 2xl:w-[1000px] h-[150px] md:h-auto"
+                  className=" lg:w-[892px] 2xl:w-[1000px] h-auto md:h-auto"
                 />
               </SwiperSlide>
               <SwiperSlide className="">
-                <img
+                <Image
+                width={1000}
+                height={1000}
                   alt="frame"
                   src="/assets/Frame500.png"
-                  className=" lg:w-[892px] 2xl:w-[1000px] h-[150px] md:h-auto"
+                  className=" lg:w-[892px] 2xl:w-[1000px] h-auto md:h-auto"
                 />
               </SwiperSlide>
             </Swiper>
