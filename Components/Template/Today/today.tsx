@@ -13,6 +13,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Product from "@/Components/Modules/Product/product";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 
 export default function Today() {
@@ -26,9 +27,13 @@ export default function Today() {
         <div className="title flex justify-between pt-[25px] items-center">
             <h1 className="md:text-[36px] text-[30px] font-[600] ">Flash Sales</h1>
             <div className="flex gap-2">
-                <Image width={50} height={50} alt="arrow" src="/assets/LeftArrow.png" className="prevEl w-[35px] h-[35px] md:w-[50px] md:h-[50px] " />
-                <Image width={50} height={50} alt="arrow" src="/assets/RightArrow.png" className="nextEl w-[35px] h-[35px] md:w-[50px] md:h-[50px] " />
+            <div className="w-[40px] prevEl1 h-[40px]  md:w-[50px] md:h-[50px] rounded-full bg-[#F7F7FC] flex justify-center items-center">
+              <FaArrowLeft className=" w-[18px] " />
             </div>
+            <div className="w-[40px] nextEl2 h-[40px]  md:w-[50px] md:h-[50px] rounded-full bg-[#F7F7FC] flex justify-center items-center">
+              <FaArrowRight className=" w-[18px] " />
+            </div>
+          </div>
         </div>
 
         <div className="sliders mt-[50px]">
@@ -39,8 +44,8 @@ export default function Today() {
               slidesPerView={4}
               loop={true}
               navigation={{
-                prevEl: ".prevEl",
-                nextEl: ".nextEl",
+                prevEl: ".prevEl1",
+                nextEl: ".nextEl2",
               }}
               breakpoints={{
 
