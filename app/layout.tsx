@@ -19,9 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={jost.className}>
-        <div className="pr-[7.7vw]  2xl:pr-[10vw] 2xl:pl-[10vw] pl-[7.7vw]">
-          <Navbar />
-          <main>{children}</main>
+        <div >
+          <div className="pr-[7.7vw]  2xl:pr-[10vw] 2xl:pl-[10vw] pl-[7.7vw]">
+            <Navbar />
+            <main>{children}</main>
+          </div>
           <Footer />
         </div>
       </body>
