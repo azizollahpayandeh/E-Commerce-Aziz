@@ -14,7 +14,7 @@ import Image from "next/image";
 export default function MainSec() {
   return (
     <>
-      <div className="flex ">
+      <div className="flex relative ">
         <div className=" slider hidden border-r-2 pt-[30px]  lg:flex justify-between lg:flex-col lg:w-[25%]">
           <div className="cursor-pointer  hover:text-gray-500 flex 2xl:gap-36 xl:gap-[100px] lg:gap-[50px]  font-[500]">
             <a className=" text-[18px] ">
@@ -50,8 +50,8 @@ export default function MainSec() {
             Health & Beauty
           </a>
         </div>
-        <div className=" lleftbar lg:w-[75%] w-[100%] ">
-          <div className=" lg:pt-[40px] lg:pl-[45px]  ">
+        <div className=" lleftbar lg:w-[75%] w-[100%] z-0 ">
+          <div className=" lg:pt-[40px] lg:pl-[45px]   ">
             <Swiper
               modules={[Navigation, Pagination, Scrollbar, A11y]}
               spaceBetween={50}
