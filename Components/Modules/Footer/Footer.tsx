@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="support lg:w-[180px] flex items-center lg:items-start flex-col gap-3">
             <h1 className="text-[20px] font-[500]">Support</h1>
             <p className="text-[16px] font-[400] text-gray-200  cursor-pointer">
-              111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
+              111 Bijoy sarani Dhaka DH 1515 Bangladesh
             </p>
             <p className="text-[16px] font-[400] text-gray-200 cursor-pointer">
               AzizKala@gmail.com

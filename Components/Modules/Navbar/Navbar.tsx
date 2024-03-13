@@ -71,7 +71,7 @@ const menuRef = useRef<HTMLDivElement | null>(null);
                 <Link className={`text-gray-700 font-[500] hover:text-gray-500 ${path == "/about" ? "border-b-2 border-gray-500 border-opacity-80" : ""} `} href="/about">
                   About
                 </Link>
-                <Link className={`text-gray-700 font-[500] hover:text-gray-500 ${path == "/sign-up" ? "border-b-2 border-gray-500 border-opacity-80" : ""} `} href="/sign-up">
+                <Link className={`text-gray-700 font-[500] hover:text-gray-500 ${path == "/auth/signup" ? "border-b-2 border-gray-500 border-opacity-80" : ""} `} href="/auth/signup">
                   Sign Up
                 </Link>
               </nav>

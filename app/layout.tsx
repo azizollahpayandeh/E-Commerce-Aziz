@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "AzizKala",
   description: "AzizKala shopping",
   icons : {
-    icon: "./assets/favicon.ico"
+    icon: "/assets/favicon.ico"
   },
 };
 
