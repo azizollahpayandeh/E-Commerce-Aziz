@@ -22,7 +22,7 @@ export default function Footer() {
             <span className="pt-[15px] text-[16px] font-[400] text-gray-300 cursor-pointer">
               Get 10% off your first order
             </span>
-            <div className=" flex items-center lg:items-center bg-black border w-[180px] h-[40px] mt-[13px]">
+            <div className=" flex items-center lg:items-center bg-black border w-[170px] h-[30px] mt-[13px]">
               <input
                 className="bg-black outline-none pl-[7px] placeholder-gray-400 text-sm"
                 placeholder="Enter your email"
