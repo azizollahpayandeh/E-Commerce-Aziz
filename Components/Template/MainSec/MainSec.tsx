@@ -14,7 +14,7 @@ import Image from "next/image";
 export default function MainSec() {
   return (
     <>
-      <div className="flex relative ">
+      <div className="flex relative " id="MainSec">
         <div className=" slider hidden border-r-2 pt-[30px]  lg:flex justify-between lg:flex-col lg:w-[25%]">
           <div className="cursor-pointer  hover:text-gray-500 flex 2xl:gap-36 xl:gap-[100px] lg:gap-[50px]  font-[500]">
             <a className=" text-[18px] ">

@@ -3,18 +3,17 @@ import { Jost } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/Modules/Navbar/Navbar";
 import Footer from "@/Components/Modules/Footer/Footer";
+import ScrollToTop from "@/utils/scrollToTop/scrollToTop";
 
 const jost = Jost({ subsets: ["latin"], weight: ["400", "700", "500", "600"] });
 
 export const metadata: Metadata = {
   title: "AzizKala",
   description: "AzizKala shopping",
-  icons : {
-    icon: "/assets/favicon.ico"
+  icons: {
+    icon: "/assets/favicon.ico",
   },
 };
-
-
 
 export default function RootLayout({
   children,
@@ -28,6 +27,9 @@ export default function RootLayout({
           <div className="pr-[7.7vw]  2xl:pr-[10vw] 2xl:pl-[10vw] pl-[7.7vw]">
             <Navbar />
             <main>{children}</main>
+            <div>
+              <ScrollToTop />
+            </div>
           </div>
           <Footer />
         </div>
