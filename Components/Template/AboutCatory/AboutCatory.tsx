@@ -1,8 +1,4 @@
 "use client";
-import TitleTemplate from "@/Components/Modules/titleTemplate/titleTemplate";
-import { FaArrowLeft } from "react-icons/fa6";
-import { FaArrowRight } from "react-icons/fa6";
-import Image from "next/image";
 import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,7 +9,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import ProductCard from "@/Components/Modules/ProductCard/ProductCard";
 import AboutCategorySlide from "@/Components/Modules/AboutCategorySlide/AboutCategorySlide";
 
 export default function AboutCategory() {

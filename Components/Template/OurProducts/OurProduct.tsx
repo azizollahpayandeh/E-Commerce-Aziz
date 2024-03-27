@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import TitleTemplate from "@/Components/Modules/titleTemplate/titleTemplate";
-import Image from "next/image";
 import Button from "@/Components/Modules/Button/Button";
 
 import { Swiper, SwiperSlide } from "swiper/react";

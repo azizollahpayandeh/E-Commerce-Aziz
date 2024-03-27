@@ -2,7 +2,6 @@
 import TitleTemplate from "@/Components/Modules/titleTemplate/titleTemplate";
 import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
-import Image from "next/image";
 import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";

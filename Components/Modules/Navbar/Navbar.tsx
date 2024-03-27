@@ -8,10 +8,8 @@ import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { IoMdMenu } from "react-icons/io";
 import { useEffect, useRef, useState } from "react";
 import Menu from "../../Modules/Menu/MenuNav";
-import UserMenu from "../UserMenu/UserMenu";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { FaRegCircleUser } from "react-icons/fa6";
 
 
 

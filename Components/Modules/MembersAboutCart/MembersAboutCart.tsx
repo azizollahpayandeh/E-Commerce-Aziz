@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
-import { RiFacebookLine } from "react-icons/ri";
 import { TiSocialLinkedin } from "react-icons/ti";
 
 export default function MembersAboutCart() {

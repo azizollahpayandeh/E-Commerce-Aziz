@@ -1,7 +1,6 @@
 "use client";
 import { Link } from "next-scroll";
-import React, { useState } from "react";
-import { FaArrowUp } from "react-icons/fa";
+import React from "react";
 import { UseScrollPosition } from "@/hooks/useScrollPosition/useScrollPosition";
 import Image from "next/image";
 
