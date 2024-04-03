@@ -10,6 +10,8 @@ import { useEffect, useRef, useState } from "react";
 import Menu from "../../Modules/Menu/MenuNav";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { FaRegCircleUser } from "react-icons/fa6";
+import UserMenu from "../UserMenu/UserMenu";
 
 
 
@@ -94,7 +96,7 @@ const menuRef = useRef<HTMLDivElement | null>(null);
 
               {/* start my user section */}
 
-              {/* <FaRegCircleUser className="text-gray-500 cursor-pointer" fontSize={25} onClick={toggleUserMenu}/> */}
+              <FaRegCircleUser className="text-gray-500 cursor-pointer" fontSize={25} onClick={toggleUserMenu}/>
 
               {/* finish my user section */}
 
@@ -106,9 +108,9 @@ const menuRef = useRef<HTMLDivElement | null>(null);
         </div>
               {/* start my user section */}
 
-              {/* <div className={`menu flex justify-end  pr-[150px] ${clickUserHandlerMenu ? "block" : "hidden"}`}>
+              <div className={`menu flex justify-end  pr-[150px] ${clickUserHandlerMenu ? "block" : "hidden"}`}>
                   <UserMenu/>
-              </div> */}
+              </div>
 
               {/* finish my user section */}
         </div>

@@ -34,12 +34,12 @@ export default function page() {
             <div className="xl:w-[735px] lg:w-[550px]">
               
             <div className="top flex lg:justify-between pb-[25px] flex-col lg:flex-row gap-7 lg:gap-0  ">
-              <input type="text" placeholder="name:" className="bg-[#F7F7FC] pl-[7px] w-[350px] lg:w-[180px] xl:w-[215px] 2xl:w-[230px] h-[50px] rounded-md"/>
-              <input type="email" placeholder="email:" className="bg-[#F7F7FC] pl-[7px] w-[350px] lg:w-[180px] xl:w-[215px] 2xl:w-[230px] h-[50px] rounded-md"/>
-              <input type="tel" placeholder="phone:" className="bg-[#F7F7FC] pl-[7px] w-[350px] lg:w-[180px] xl:w-[215px] 2xl:w-[230px] h-[50px] rounded-md"/>
+              <input type="text" placeholder="name:" className="bg-[#F7F7FC] pl-[7px] text-[14px] w-[350px] lg:w-[180px] xl:w-[215px] 2xl:w-[230px] h-[50px] rounded-md"/>
+              <input type="email" placeholder="email:" className="bg-[#F7F7FC] pl-[7px] text-[14px] w-[350px] lg:w-[180px] xl:w-[215px] 2xl:w-[230px] h-[50px] rounded-md"/>
+              <input type="tel" placeholder="phone:" className="bg-[#F7F7FC] pl-[7px] text-[14px] w-[350px] lg:w-[180px] xl:w-[215px] 2xl:w-[230px] h-[50px] rounded-md"/>
             </div>
             <div className="bottom ">
-              <textarea placeholder="your message:" className="bg-[#F7F7FC] pl-[7px] w-[350px] h-[150px] pt-[7px] lg:w-[550px] xl:w-[737px] lg:h-[205px] rounded-md"></textarea>
+              <textarea placeholder="your message:" className="bg-[#F7F7FC] pl-[7px] text-[14px] w-[350px] h-[150px] pt-[7px] lg:w-[550px] xl:w-[737px] lg:h-[205px] rounded-md"></textarea>
             </div>
             <div className="botton flex lg:justify-end justify-start pt-[20px]">
             <Button value="send message"/>

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Jost } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/Modules/Navbar/Navbar";
 import Footer from "@/Components/Modules/Footer/Footer";
 import ScrollToTop from "@/utils/scrollToTop/scrollToTop";
 
-const jost = Jost({ subsets: ["latin"], weight: ["400", "700", "500", "600"] });
+const roboto = Roboto({ subsets: ["latin"], weight: "500" });
 
 export const metadata: Metadata = {
   title: "AzizKala",
@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={jost.className}>
+      <body className={roboto.className}>
         <div>
           <div className="pr-[7.7vw]  2xl:pr-[10vw] 2xl:pl-[10vw] pl-[7.7vw]">
             <Navbar />
