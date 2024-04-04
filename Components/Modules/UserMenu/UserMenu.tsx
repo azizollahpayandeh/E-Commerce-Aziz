@@ -12,15 +12,26 @@ export default function UserMenu() {
                 Account
               </li>
             </Link>
-            <li className="hover:text-[18px] text-[17px] transition-all duration-200 cursor-pointer">
-              My Order
-            </li>
+            <Link href="/account/address">
+              <li className="hover:text-[18px] text-[17px] transition-all duration-200 cursor-pointer">
+                Address Book
+              </li>
+            </Link>
+            <Link href="/account/myCancellations">
             <li className="hover:text-[18px] text-[17px] transition-all duration-200 cursor-pointer">
               My Cancelation
             </li>
+            </Link>
+            <Link href="myReturns">
             <li className="hover:text-[18px] text-[17px] transition-all duration-200 cursor-pointer">
-              My Revews
+              My Revers
             </li>
+            </Link>
+            <Link href="paymentOptions">
+            <li className="hover:text-[18px] text-[17px] transition-all duration-200 cursor-pointer">
+            My Payment Options
+            </li>
+            </Link>
             <li className="hover:text-[18px] text-[17px] transition-all duration-200 cursor-pointer">
               Logout
             </li>
